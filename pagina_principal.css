@@ -1,0 +1,66 @@
+/*SINTAXE DO CSS
+
+seletores são simplesmente elementos de marcação do html, o qual o css vai aplicar as formatações.
+
+seletor{
+	
+	declarações:valor;
+}*/
+
+/* TAGS */
+
+body {
+		background-color:orange;
+		color:black;
+		font-size:18px;
+		font-family:Helvetica,Arial;
+	}
+	
+* {
+		margin:0;
+		padding:0;
+	}
+		
+
+header {
+	
+			background-color:white;
+			font-size:15px;
+			height=10px;
+		}
+		
+aside {
+
+		background-color:white;
+		font-weight:bold;
+}
+
+/* ID's */	
+
+#principal{
+	
+	min-height:400px;
+}
+
+#header2 {
+		
+		background-color:orange;
+		color:black;
+		}
+		
+#footer_principal {
+					
+				background-color:orange;
+}
+
+
+/* CLASS --> uma class é declarada usando um ponto (.) */
+
+.container{
+	
+	width:1000px;  /*coloca todo conteúdo à esquerda */
+	margin:auto; /* margin:auto; calcula a margem automaticamente, dando valores iguais de cada lado. */
+}
+
+
+	

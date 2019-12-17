@@ -1,0 +1,97 @@
+/*SINTAXE DO CSS
+
+seletores são simplesmente elementos de marcação do html, o qual o css vai aplicar as formatações.
+
+seletor{
+	
+	declarações:valor;
+}*/
+
+
+/* TAGS */
+body {
+		
+		background-color:#FF1493;/* ou utilizar o modelo hexadecimal que é uma forma mais elegante de escrever. Ex: background-color:#000000; */
+		font-size:20px;
+		font-family:Helvetica,Arial;
+	}
+	
+*{
+	margin:0;
+	padding:0;
+}
+		
+header{
+	background-color:#FF1493;
+	font-size:30px;
+	height:80px;
+	padding:20px;
+}
+
+footer{
+	clear:both;
+	background-color:#FF1493;
+	text-shadow:1px 1px 1px #111111;
+	height:50px;
+	font-size:12px;
+	text-align:center;
+	padding:10px;
+}
+
+h5{
+	font-size:40px;
+	color:#FFFFFF;
+	text-shadow:1px 1px 1px #111111;
+	text-align:center;
+	margin:0 0 50px 0;
+}
+
+p{
+	color:#FFFFFF;
+	text-shadow:1px 1px 1px #111111;
+	font-size:18px;
+}
+
+/* ID's */
+#div_principal{
+	background-image: url('rose.jpg');
+	clear:both;
+	background-size:100%;
+	min-height:400px;
+	padding:80px 0 0 0;
+}
+
+#titulo{
+	float:left;
+}
+
+#menu{
+	margin-top:30px;
+	float:right;
+	font-size:15px;
+}
+
+#menu a{
+	padding:10px 5px;
+	text-decoration:none;
+	color:black;
+	text-shadow:1px 1px #111111
+}
+
+#menu a:hover{
+	background-color:#5F9EA0;
+	color:#FF1493;
+}
+
+/* CLASS --> uma class é declarada usando um ponto (.) */
+
+.container{
+	
+	width:960px; /* coloca todo conteúdo à esquerda */
+	margin:auto; /* margin:auto; calcula a margem automaticamente, dando valores iguais de cada lado. */
+}
+
+.efeito{
+	background-color:rgba(0,0,0,0.5);
+	padding:80px 0 80px 0;
+
